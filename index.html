@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Yudika Nugraha - Web & App Developer</title>
+    <meta name="title" content="Yudika Nugraha - Web & App Developer" />
+    <meta name="description" content="Portofolio Yudika Nugraha" />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/yud.jpg" />
+  </head>
+
+  <body>
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preloader" data-preloader>
+      <div class="circle"></div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="170"
+            height="40"
+            alt="Pfolio home"
+          />
+        </a>
+
+        <button
+          class="nav-toggle-btn"
+          data-nav-toggler
+          data-nav-toggle-btn
+          aria-label="Toggle menu"
+        >
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+        </button>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Resume</a>
+            </li>
+
+            <li>
+              <a href="#service-label" class="navbar-link">Services</a>
+            </li>
+
+            <li>
+              <a href="#portfolio-label" class="navbar-link">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#Skills" class="navbar-link">Skills</a>
+            </li>
+
+            <li>
+              <a href="#footer" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="section hero" aria-label="home">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 hero-title">Yudika Nugraha</h1>
+
+              <p class="hero-subtitle">Creative Web & App Developer</p>
+
+              <div class="hero-banner">
+                <img
+                  src="./assets/images/yud.jpg"
+                  width="800"
+                  height="800"
+                  alt="Yudika Nugraha"
+                  class="w-100"
+                />
+              </div>
+
+              <p class="into-text">
+                Hi, I’m Yudika Nugraha and I am creative web & app developer who
+                dream making the world better place by creating captivating
+                products.
+              </p>
+
+              <a href="#" class="btn has-before">
+                <span class="span">Download CV</span>
+
+                <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section class="service" aria-labelledby="service-label">
+          <div class="container">
+            <div class="title-wrapper">
+              <div>
+                <p class="section-subtitle">Services That I Provide</p>
+
+                <h2 class="h2 section-title" id="service-label">Services</h2>
+              </div>
+
+              <p class="section-text">
+                I offer a variety of services in web developmen and digital
+                marketing, including website creation and eCommerce solutions.
+                With Exprience and dedication, i am ready to help you build a
+                profedional and effective digital presence.
+              </p>
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-container service-list" data-slider-container>
+                <li class="slider-item" data-slider-item>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="desktop-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">Website Design</h3>
+
+                    <p class="card-text">
+                      I create visually appealing and responsive websites that
+                      adapt seamlessly across devices. my focus is on clean
+                      layouts, intuitive user experience (UX), and performace.
+                      Whether it's a personal blog, company profile or landing
+                      page i design websites that only look great but also
+                      function effectively.
+                    </p>
+
+                    <span class="text-lg card-number"></span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="More about my website design service"
+                    ></a>
+                  </div>
+                </li>
+
+                <li class="slider-item" data-slider-item>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="podium-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">SEO Marketing</h3>
+
+                    <p class="card-text">
+                      Getting a website online isn't enough - its needs to be
+                      found. i help websites rank higher in search engines
+                      through keyword optimization, on page SEO, metadata
+                      structuring, and performance tweaks, better SEO means
+                      better traffic,better reach ,and better business
+                    </p>
+
+                    <span class="text-lg card-number"></span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="More about my SEO Marketing service"
+                    ></a>
+                  </div>
+                </li>
+
+                <li class="slider-item" data-slider-item>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="basket-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">eCommerce</h3>
+
+                    <p class="card-text">
+                      I build eCommerce websites that are user-frendly secure,
+                      and optimized for conversions. From product display tp
+                      checkout, i ensure the shopping experience is smooth and
+                      mobile-friendly. i also integrate payment gateways and
+                      basic inventory systems as needed.
+                    </p>
+
+                    <span class="text-lg card-number"></span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="More about my eCommerce service"
+                    ></a>
+                  </div>
+                </li>
+
+                <li class="slider-item" data-slider-item>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="color-filter-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">Graphic Design</h3>
+
+                    <p class="card-text">
+                      I craft compelling visual content for brands, businesses,
+                      and personal project. From logos and posters to social
+                      media templates and ui mockups, i focus on clean,modern
+                      designs that communicate messages clearly and effectively.
+                    </p>
+
+                    <span class="text-lg card-number"></span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="More about my Graphic Design service"
+                    ></a>
+                  </div>
+                </li>
+
+                <li class="slider-item" data-slider-item>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="megaphone-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">Digital Marketing</h3>
+
+                    <p class="card-text">
+                      I help brands grow onlinw by combining content
+                      strategy,SEO email campaigns, and analytics. my goal is to
+                      connect the right message with the right audience using
+                      data-driven methods and tagerted campaings that deliver
+                      real results.
+                    </p>
+
+                    <span class="text-lg card-number"></span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="More about my Digital Marketing service"
+                    ></a>
+                  </div>
+                </li>
+
+                <li class="slider-item" data-slider-item>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="chatbubbles-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">Social Media</h3>
+
+                    <p class="card-text">
+                      I manage and create content for social media platforms
+                      that align with your brand's voice. From post schedulling
+                      to engagement strategeis, I ensure your online prensece
+                      stays active, relevant, and visually appealing.
+                    </p>
+
+                    <span class="text-lg card-number"></span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="More about my Social Media service"
+                    ></a>
+                  </div>
+                </li>
+              </ul>
+
+              <div class="slider-controls">
+                <button
+                  class="slider-control prev"
+                  data-slider-prev
+                  aria-label="Slide to previous item"
+                >
+                  <div class="line"></div>
+                  <div class="arrow"></div>
+                </button>
+
+                <button
+                  class="slider-control next"
+                  data-slider-next
+                  aria-label="Slide to next item"
+                >
+                  <div class="line"></div>
+                  <div class="arrow"></div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #SKILLS
+      -->
+
+        <section class="section skills" aria-label="our skills">
+          <div class="container">
+            <p class="section-subtitle">I Make The Future</p>
+
+            <h2 class="h2 section-title">I Develop & Create Digital Future.</h2>
+
+            <div class="skills-wrapper">
+              <div>
+                <p class="section-text">
+                  in the era of rapid digital transformation,i'm passionate
+                  about building modern, interactive, and user-centered digital
+                  experiences. I specialize in designing and developing websites
+                  that dont just look good, but also perform well.
+                </p>
+
+                <p class="section-text">
+                  I combine creativity and code to create
+                  functional,responsive,and accessible websites using
+                  technologies like HTML,CSS,JavaScript and Python.every pixel
+                  and every line of code i write is aimed at delivering real
+                  impact for users and businesses.
+                </p>
+
+                <a href="yudikanugraha0@gmail.com" class="btn has-before"
+                  >yudikanugraha0.com</a
+                >
+              </div>
+
+              <div>
+                <ul class="skills-list">
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Design</p>
+
+                      <data class="progress-value" value="80">80%</data>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 80%"></div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Branding</p>
+
+                      <data class="progress-value" value="80">80%</data>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 80%"></div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Web Design</p>
+
+                      <data class="progress-value" value="75">75%</data>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 75%"></div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Social Media</p>
+
+                      <data class="progress-value" value="35">35%</data>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 35%"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #PORTFOLIO
+      -->
+
+        <section class="portfolio" aria-labelledby="portfolio-label">
+          <div class="title-wrapper container">
+            <div>
+              <p class="section-subtitle" id="portfolio-label">Our Works</p>
+
+              <h2 class="h2 section-title">Portfolio</h2>
+            </div>
+
+            <p class="section-text">
+              Here are some of the projects i've worked on each one is built
+              with care, creativity, and attention to detail. From website
+              design and development to branding and digital tools,these works
+              represent my skills, growth,and passion for technology Take a look
+              and discover how i bring ideas to life through clean code and
+              modern design.
+            </p>
+          </div>
+
+          <div class="slider" data-slider>
+            <ul class="slider-container" data-slider-container>
+              <li class="slider-item">
+                <div
+                  class="portfolio-card img-holder"
+                  style="--width: 600; --height: 600"
+                >
+                  <img
+                    src="./assets/images/food.jpg"
+                    width="600"
+                    height="600"
+                    loading="lazy"
+                    alt="portfolio"
+                    class="img-cover"
+                  />
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Foodie</h3>
+
+                    <p class="card-text">Website Design</p>
+                  </div>
+
+                  <a href="#" class="layer-link"></a>
+                </div>
+              </li>
+
+              <li class="slider-item">
+                <div
+                  class="portfolio-card img-holder"
+                  style="--width: 600; --height: 600"
+                >
+                  <img
+                    src="./assets/images/coffe.jpg"
+                    width="600"
+                    height="600"
+                    loading="lazy"
+                    alt="portfolio"
+                    class="img-cover"
+                  />
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">YudCafe</h3>
+
+                    <p class="card-text">Website / Development</p>
+                  </div>
+
+                  <a href="#" class="layer-link"></a>
+                </div>
+              </li>
+
+              <li class="slider-item">
+                <div
+                  class="portfolio-card img-holder"
+                  style="--width: 600; --height: 600"
+                >
+                  <img
+                    src="./assets/images/task.jpg"
+                    width="600"
+                    height="600"
+                    loading="lazy"
+                    alt="portfolio"
+                    class="img-cover"
+                  />
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Website Tasks</h3>
+
+                    <p class="card-text">Website / Design</p>
+                  </div>
+
+                  <a href="#" class="layer-link"></a>
+                </div>
+              </li>
+
+              <li class="slider-item">
+                <div
+                  class="portfolio-card img-holder"
+                  style="--width: 600; --height: 600"
+                >
+                  <img
+                    src="./assets/images/sistemm.jpg"
+                    width="600"
+                    height="600"
+                    loading="lazy"
+                    alt="portfolio"
+                    class="img-cover"
+                  />
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Solar Sistem</h3>
+
+                    <p class="card-text">Website / UX Design</p>
+                  </div>
+
+                  <a href="#" class="layer-link"></a>
+                </div>
+              </li>
+
+              <li class="slider-item">
+                <div
+                  class="portfolio-card img-holder"
+                  style="--width: 600; --height: 600"
+                >
+                  <img
+                    src="./assets/images/kocheng.jpg"
+                    width="600"
+                    height="600"
+                    loading="lazy"
+                    alt="portfolio"
+                    class="img-cover"
+                  />
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Miawmeww</h3>
+
+                    <p class="card-text">Website / Development</p>
+                  </div>
+
+                  <a href="#" class="layer-link"></a>
+                </div>
+              </li>
+
+              <li class="slider-item">
+                <div
+                  class="portfolio-card img-holder"
+                  style="--width: 600; --height: 600"
+                >
+                  <img
+                    src="./assets/images/animeee.jpg"
+                    width="600"
+                    height="600"
+                    loading="lazy"
+                    alt="portfolio"
+                    class="img-cover"
+                  />
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Watch Anime</h3>
+
+                    <p class="card-text">UX Design / Web App</p>
+                  </div>
+
+                  <a href="#" class="layer-link"></a>
+                </div>
+              </li>
+            </ul>
+
+            <div class="slider-controls">
+              <button
+                class="slider-control prev"
+                data-slider-prev
+                aria-label="Slide to previous item"
+              >
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button
+                class="slider-control next"
+                data-slider-next
+                aria-label="Slide to next item"
+              >
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #BLOG
+      -->
+
+        <section class="section blog" id="Skills">
+          <div class="container">
+            <p class="section-subtitle" id="blog-label">Skills</p>
+
+            <h2 class="h2 section-title">Programming language skills</h2>
+
+            <ul class="blog-list">
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner"
+                    style="--width: 700; --height: 470"
+                  >
+                    <img
+                      src="./assets/images/html.png"
+                      width="700"
+                      height="470"
+                      loading="lazy"
+                      alt="Get Started With Tiktok Ads."
+                      class="img-bhs"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <!-- <time class="time" datetime="2022-06-24">
+                      <span class="span text-lg">24</span>
+                      June 2022
+                    </time> -->
+
+                    <div>
+                      <h3 class="h3 card-title">HTML</h3>
+
+                      <p class="card-text">
+                        I typically write clean and semantic HTML code to create
+                        a solid structure that integrates well with CSS and
+                        JavaScript
+                      </p>
+
+                      <a href="#" class="btn has-before">
+                        <span class="span">Read more</span>
+
+                        <ion-icon name="arrow-forward"></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner"
+                    style="--width: 700; --height: 470"
+                  >
+                    <img
+                      src="./assets/images/css.png"
+                      width="700"
+                      height="470"
+                      loading="lazy"
+                      alt="CSS."
+                      class="img-bhs"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <!-- <time class="time" datetime="2022-06-24">
+                      <span class="span text-lg">24</span>
+                      June 2022
+                    </time> -->
+
+                    <div>
+                      <h3 class="h3 card-title">CSS</h3>
+
+                      <p class="card-text">
+                        I developed a fully responsive landing page with scroll
+                        animations and modern UI styling using only pure CSS and
+                        no external libraries.
+                      </p>
+
+                      <a href="#" class="btn has-before">
+                        <span class="span">Read more</span>
+
+                        <ion-icon name="arrow-forward"></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner"
+                    style="--width: 700; --height: 470"
+                  >
+                    <img
+                      src="./assets/images/py.png"
+                      width="700"
+                      height="470"
+                      loading="lazy"
+                      alt="Python"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <!-- <time class="time" datetime="2022-06-27">
+                      <span class="span text-lg">27</span>
+                      June 2022
+                    </time> -->
+
+                    <div>
+                      <h3 class="h3 card-title">Python</h3>
+
+                      <p class="card-text">
+                        i'm always looking for ways to apply Python in
+                        real-world projects. if you're looking for someone who
+                        can build efficient and clean Python code whether it's
+                        for the backend, automation, or data feel free to reach
+                        out!
+                      </p>
+
+                      <a href="#" class="btn has-before">
+                        <span class="span">Read more</span>
+
+                        <ion-icon name="arrow-forward"></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer" id="footer">
+      <div class="container">
+        <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">Get in touch</p>
+          </li>
+
+          <li>
+            <a href="mailto:info@kwilliams.com" class="footer-link"
+              >yudikanugraha0.com</a
+            >
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">Locations</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Ciwidey — Bandung </a>
+          </li>
+        </ul>
+
+        <ul class="social-list">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-skype"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
